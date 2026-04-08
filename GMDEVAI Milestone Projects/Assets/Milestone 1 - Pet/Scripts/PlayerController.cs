@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    Vector3 inputMovement = Vector3.zero;
-    Vector2 rotation = Vector2.zero;
+    private Vector3 inputMovement = Vector3.zero;
+    private Quaternion rotation = Quaternion.identity;
 
-    public float speed = 5;
-    public float rotationSpeed = 4;
+    [SerializeField] private float speed = 5;
+    [SerializeField] private float rotationSpeed = 4;
 
     // Start is called before the first frame update
     void Start()
@@ -23,12 +23,15 @@ public class PlayerController : MonoBehaviour
         inputMovement.z = Input.GetAxis("Vertical");
 
         inputMovement *= speed * Time.deltaTime;
+        transform.Translate(inputMovement.x, 0, inputMovement.z);
+        
+        float mouseX = Input.GetAxis("Mouse X") * rotationSpeed;
+        rotation.y += mouseX;
 
-        rotation.x += Input.GetAxis("Mouse X");
-        //rotation.y += -Input.GetAxis("Mouse Y");
-
-        this.transform.rotation = Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(rotation), Time.deltaTime * rotationSpeed);
-
-        transform.Translate(inputMovement.x, 0, inputMovement.z, Space.World);    
+        Quaternion targetRotation = Quaternion.Euler(0f, rotation.y, 0f);
+        
+        this.transform.rotation = Quaternion.Slerp(this.transform.rotation, 
+                                                    targetRotation, 
+                                                    rotationSpeed * Time.deltaTime);
     }
 }
