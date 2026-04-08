@@ -30,7 +30,9 @@ public class TravelForwardToGoal : MonoBehaviour
                                         goal.position.z);
         
         Vector3 direction = lookAtGoal - transform.position;
-        this.transform.rotation = Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(direction), Time.deltaTime * rotationSpeed);
+        this.transform.rotation = Quaternion.Slerp(this.transform.rotation, 
+                                                Quaternion.LookRotation(direction), 
+                                                Time.deltaTime * rotationSpeed);
 
         float distanceToGoal = Vector3.Distance(lookAtGoal, transform.position);
         
@@ -43,9 +45,11 @@ public class TravelForwardToGoal : MonoBehaviour
         Vector3 baseVelocity = Vector3.zero;
         Vector3 currentVelocity = new Vector3(0f, 0f, currentSpeed);
 
-        currentVelocity = Vector3.Lerp(baseVelocity, currentVelocity, distanceToGoal);
+        currentVelocity = Vector3.Lerp(baseVelocity, 
+                                    currentVelocity, 
+                                    distanceToGoal);
         
         if (distanceToGoal > 1)
-            transform.Translate(0f, 0f, currentSpeed * Time.deltaTime);
+            transform.Translate(currentVelocity * Time.deltaTime);
     }
 }
