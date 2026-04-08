@@ -888,8 +888,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goal: {fileID: 189921421}
-  speed: 5
+  baseSpeed: 5
+  maxSpeed: 10
   rotationSpeed: 4
+  slowDownDistance: 3
+  acceleration: 3
 --- !u!65 &1234501204
 BoxCollider:
   m_ObjectHideFlags: 0
