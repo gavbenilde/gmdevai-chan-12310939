@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Milestone 1 - Pet/Milestone 1 - Pet.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Milestone 6 - Flocking/Milestone 6 - Flocking.unity
+    guid: 755b66827cdf97e4ab621d208be53772
   m_configObjects: {}
