@@ -130,6 +130,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 135003537479321094, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82c5eeda100725a488a293b6c4ade909, type: 2}
+    - target: {fileID: 135003537549692107, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82c5eeda100725a488a293b6c4ade909, type: 2}
+    - target: {fileID: 135003537594371266, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82c5eeda100725a488a293b6c4ade909, type: 2}
+    - target: {fileID: 135003537596813316, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82c5eeda100725a488a293b6c4ade909, type: 2}
+    - target: {fileID: 135003537626856143, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82c5eeda100725a488a293b6c4ade909, type: 2}
+    - target: {fileID: 135003537933783896, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82c5eeda100725a488a293b6c4ade909, type: 2}
+    - target: {fileID: 135003537953149295, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82c5eeda100725a488a293b6c4ade909, type: 2}
+    - target: {fileID: 135003538299287378, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82c5eeda100725a488a293b6c4ade909, type: 2}
+    - target: {fileID: 135003538364703866, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82c5eeda100725a488a293b6c4ade909, type: 2}
+    - target: {fileID: 135003538682748919, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82c5eeda100725a488a293b6c4ade909, type: 2}
+    - target: {fileID: 135003538886944908, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82c5eeda100725a488a293b6c4ade909, type: 2}
+    - target: {fileID: 135003538993371899, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82c5eeda100725a488a293b6c4ade909, type: 2}
+    - target: {fileID: 135003539226639172, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82c5eeda100725a488a293b6c4ade909, type: 2}
     - target: {fileID: 135003539346080749, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
       propertyPath: m_LocalScale.x
       value: 30
@@ -189,6 +241,10 @@ PrefabInstance:
     - target: {fileID: 135003539346080751, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
       propertyPath: m_Name
       value: Daredevil
+      objectReference: {fileID: 0}
+    - target: {fileID: 135003539346080751, guid: 4d0a4a25e8391ac4090ee6ce172c3ebf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1938,6 +1994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: My Vehicle
       objectReference: {fileID: 0}
+    - target: {fileID: 3796921279050731854, guid: f815e3fdf2ceb3048a8fe707de31534f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1963,6 +2023,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 476591031358358644, guid: 834b316c2b5f2e146ae22f9c7e385366, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 681e58a285456904bb9f67c080fb380f, type: 2}
+    - target: {fileID: 3249247094341510050, guid: 834b316c2b5f2e146ae22f9c7e385366, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 681e58a285456904bb9f67c080fb380f, type: 2}
+    - target: {fileID: 5215975196009077795, guid: 834b316c2b5f2e146ae22f9c7e385366, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 681e58a285456904bb9f67c080fb380f, type: 2}
     - target: {fileID: 5414108620589773563, guid: 834b316c2b5f2e146ae22f9c7e385366, type: 3}
       propertyPath: m_LocalScale.x
       value: 30
@@ -2019,9 +2091,33 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5535227990341330795, guid: 834b316c2b5f2e146ae22f9c7e385366, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 681e58a285456904bb9f67c080fb380f, type: 2}
+    - target: {fileID: 6014920653102280947, guid: 834b316c2b5f2e146ae22f9c7e385366, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 681e58a285456904bb9f67c080fb380f, type: 2}
+    - target: {fileID: 6721258964521207350, guid: 834b316c2b5f2e146ae22f9c7e385366, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 681e58a285456904bb9f67c080fb380f, type: 2}
+    - target: {fileID: 8712692836820031066, guid: 834b316c2b5f2e146ae22f9c7e385366, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 681e58a285456904bb9f67c080fb380f, type: 2}
+    - target: {fileID: 8738666440886968178, guid: 834b316c2b5f2e146ae22f9c7e385366, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 681e58a285456904bb9f67c080fb380f, type: 2}
     - target: {fileID: 9041432283490599144, guid: 834b316c2b5f2e146ae22f9c7e385366, type: 3}
       propertyPath: m_Name
       value: Cautious Vehicle
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041432283490599144, guid: 834b316c2b5f2e146ae22f9c7e385366, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
