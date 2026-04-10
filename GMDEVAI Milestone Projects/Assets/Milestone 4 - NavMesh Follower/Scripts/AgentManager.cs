@@ -22,7 +22,7 @@ public class AgentManager : MonoBehaviour
     {
         foreach (GameObject ai in agents)
         {
-            NavMeshAgent agent = ai.GetComponent<AIControl>().agent;
+            NavMeshAgent agent = ai.GetComponent<AIControlCapsule>().agent;
             
             if (Vector3.Distance(player.transform.position, agent.transform.position) < 5.0f)
             {
